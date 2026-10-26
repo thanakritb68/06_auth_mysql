@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f5f6f8;
+}
+
+/* กล่องสีขาวกลางจอ ใช้ในทุกหน้า */
+.auth-box {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #00758f;
+  border-color: #00758f;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ข้อความแจ้ง error ใต้ฟอร์ม */
+.error {
+  color: #c0392b;
+}
