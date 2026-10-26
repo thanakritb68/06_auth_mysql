@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="auth-box">
-      <h1>Auth Demo</h1>
+      <h1>6802847Thanakrit Bowonthitiphon</h1>
       <ul>
         <li><Link href="/register">Register</Link></li>
         <li><Link href="/login">Login</Link></li>
